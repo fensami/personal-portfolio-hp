@@ -13,7 +13,7 @@ a {
 }
 /* Navbar */
 .navbar {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -63,4 +63,204 @@ a {
 }
 .section-title-banner .sub-title {
   color: #fd6f00;
+}
+.section-title-banner .title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 3px;
+}
+.banner-area {
+  padding: 60px 0;
+}
+.about-image img {
+  border-radius: 100%;
+}
+/* ==================
+   Service Card
+   ==================*/
+.service-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 54px 18px 18px 18px;
+  margin-bottom: 20px;
+  height: 330px;
+  background: #dddddd43;
+  font-family: "Poppins", sans-serif;
+}
+.service-card .card-content {
+  margin-top: 26px;
+}
+.service-card .card-content .title {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0.96px;
+  margin-bottom: 0;
+}
+.service-card .card-content .para {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 31.5px;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  margin-top: 15px;
+}
+/* ==================
+   Section title
+   ==================*/
+.section-title-wrapper {
+  margin-bottom: 60px;
+}
+.section-title-wrapper .title {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 1.95px;
+}
+.section-title-wrapper .para {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.63px;
+}
+
+.about-me-left-content img {
+  border-radius: 100%;
+}
+
+.progress {
+  margin-bottom: 20px;
+}
+/* ==================
+   Section Gap
+   ==================*/
+.section-gap-padding {
+  padding: 120px 0;
+}
+.section-gap-padding-bottom {
+  padding-bottom: 120px;
+}
+/* ==================
+       Section Gap
+       ==================*/
+.project-card {
+}
+.project-card .project-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.project-card .title {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  margin-bottom: 0;
+}
+.project-card .sub-title {
+  color: #fd6f00;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.57px;
+  margin-bottom: 10px;
+}
+.project-card .project-content {
+  margin-top: 37px;
+}
+
+.email-content-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.email-input {
+  width: 500px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+}
+.primary-btn {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31.5px;
+  padding: 11px 40px;
+  border-radius: 100px;
+  background: #fd6f00;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  width: 188px;
+  height: 52px;
+  top: 10px;
+  left: 1232px;
+}
+
+.footer-bg {
+  width: 100%;
+  padding: 10px 0;
+  /* margin-top: 100px; */
+}
+.footer-items {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.main-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.main-logo .title {
+  color: #1e1e1e;
+  font-family: "Montserrat";
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 400;
+  line-height: 58.51px;
+  margin-bottom: 0;
+}
+.footer-nav nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.footer-nav nav ul li a {
+  color: #05092b;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-decoration: none;
+}
+.social-link-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.social-link-2 a {
+  color: #000;
+}
+.footer {
+  background-color: #4a4a4a;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
 }
