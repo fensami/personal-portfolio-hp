@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 ul {
   list-style: none;
   margin: 0;
@@ -48,18 +49,24 @@ a {
   letter-spacing: 0.63px;
 }
 .prifile-image {
-  border-radius: 100%;
+  /* border-radius: 100%; */
   overflow: hidden;
+  border-radius: 20px;
 }
-.section-title-banner {
+.prifile-image img {
+  width: 100%;
 }
-.section-title-banner .mini-sub-title,
-.sub-title {
+.section-title-banner .para {
+  max-width: 80%;
+}
+.section-title-banner .mini-sub-title {
   color: #000;
   font-family: Poppins;
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 0.72px;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 .section-title-banner .sub-title {
   color: #fd6f00;
@@ -71,12 +78,19 @@ a {
   font-weight: 700;
   line-height: 120%;
   letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+@media (max-width: 720px) {
+  .section-title-banner .title {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
 }
 .banner-area {
-  padding: 60px 0;
+  padding-top: 60px;
 }
 .about-image img {
-  border-radius: 100%;
+  /* border-radius: 100%; */
 }
 /* ==================
    Service Card
@@ -122,6 +136,11 @@ a {
   font-weight: 600;
   letter-spacing: 1.95px;
 }
+@media (max-width: 680px) {
+  .section-title-wrapper .title {
+    font-size: 32px;
+  }
+}
 .section-title-wrapper .para {
   color: #000;
   font-family: "Poppins";
@@ -131,7 +150,8 @@ a {
 }
 
 .about-me-left-content img {
-  border-radius: 100%;
+  border-radius: 10px;
+  width: 100%;
 }
 
 .progress {
@@ -180,6 +200,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .email-input {
@@ -194,16 +215,15 @@ a {
   color: #fff;
   font-size: 21px;
   font-weight: 400;
-  line-height: 31.5px;
+  line-height: 31px;
   padding: 11px 40px;
   border-radius: 100px;
   background: #fd6f00;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-decoration: none;
-  width: 188px;
-  height: 52px;
-  top: 10px;
-  left: 1232px;
+}
+.primary-btn.v2 {
+  border-radius: 10px;
 }
 
 .footer-bg {
@@ -235,6 +255,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 40px;
   margin-bottom: 50px;
 }
@@ -263,4 +284,11 @@ a {
   text-align: center;
   padding: 10px 0;
   width: 100%;
+}
+.banner-section-btn-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 40px;
 }
